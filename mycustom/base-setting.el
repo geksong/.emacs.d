@@ -15,4 +15,11 @@
 (setq make-backup-files nil)
 (global-linum-mode t)
 
+;;显示时间
+(display-time-mode 1)
+(setq display-time-day-and-date t)
+
+;;隐藏工具栏
+(tool-bar-mode 0)
+
 (provide 'base-setting)

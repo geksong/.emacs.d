@@ -32,6 +32,8 @@
 		elpy
 		flycheck
 		py-autopep8
+		undo-tree
+		lua-mode
 		) "Default packages")
  (setq package-selected-packages my/packages)
 
@@ -58,7 +60,7 @@
  '(org-agenda-files (quote ("~/Documents/btb/work/otc/ALLIN.org")))
  '(package-selected-packages
    (quote
-    (markdown-mode company hungry-delete swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell monokai-theme))))
+    (undo-tree markdown-mode company hungry-delete swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell monokai-theme))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -81,3 +83,4 @@
 (require 'elpy-setting)
 (require 'flycheck-setting)
 (require 'pep8-setting)
+(require 'undotree-setting)
