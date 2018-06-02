@@ -22,4 +22,7 @@
 ;;隐藏工具栏
 (tool-bar-mode 0)
 
+;;Support export to markdown
+(setq org-export-backends (quote (ascii html icalendar latex md)))
+
 (provide 'base-setting)

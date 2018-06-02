@@ -34,6 +34,7 @@
 		py-autopep8
 		undo-tree
 		lua-mode
+		smerge-mode
 		) "Default packages")
  (setq package-selected-packages my/packages)
 
