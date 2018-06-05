@@ -35,6 +35,8 @@
 		undo-tree
 		lua-mode
 		smerge-mode
+		request
+		grapnel
 		) "Default packages")
  (setq package-selected-packages my/packages)
 
@@ -61,7 +63,7 @@
  '(org-agenda-files (quote ("~/Documents/btb/work/otc/ALLIN.org")))
  '(package-selected-packages
    (quote
-    (undo-tree markdown-mode company hungry-delete swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell monokai-theme))))
+    (grapnel undo-tree markdown-mode company hungry-delete swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell monokai-theme))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
