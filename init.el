@@ -63,7 +63,10 @@
  '(org-agenda-files (quote ("~/Documents/btb/work/otc/ALLIN.org")))
  '(package-selected-packages
    (quote
-    (grapnel undo-tree markdown-mode company hungry-delete swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell monokai-theme))))
+    (grapnel undo-tree markdown-mode company hungry-delete swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell monokai-theme)))
+ '(markdown-command
+   "pandoc -s -c /Users/geksong/.emacs.d/markdown-css/style.css --mathjax --highlight-style espresso")
+ )
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
