@@ -1,4 +1,7 @@
- (when (>= emacs-major-version 24)
+;;-*-Menlo-normal-normal-normal-*-14-*-*-*-m-0-iso10646-1
+(set-frame-font "-*-Menlo-normal-normal-normal-*-14-*-*-*-m-0-iso10646-1")
+
+(when (>= emacs-major-version 24)
      (require 'package)
      (package-initialize)
      (setq package-archives '(("gnu"   . "http://elpa.emacs-china.org/gnu/")
@@ -27,7 +30,6 @@
 		helm
 		helm-ls-git
 		magit
-		ensime
 		scala-mode
 		elpy
 		flycheck
@@ -60,7 +62,6 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(org-agenda-files (quote ("~/Documents/btb/work/otc/ALLIN.org")))
  '(package-selected-packages
    (quote
     (grapnel undo-tree markdown-mode company hungry-delete swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell monokai-theme)))

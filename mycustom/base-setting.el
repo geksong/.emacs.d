@@ -1,3 +1,4 @@
+
 ;;默认开启全屏
 (setq initial-frame-alist (quote ((fullscreen . maximized))))
 
